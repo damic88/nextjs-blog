@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9bfdc919-45b8-4843-ac88-c8504b9416d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/hello.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/.env.prod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/.env.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/.env.test_cached" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/.github/CODEOWNERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/.idea/php-test-framework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/.idea/sylius-learning.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/behat.yml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/bin/console" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/bin/require-symfony-version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/bundles.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/_sylius.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/dev/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/dev/jms_serializer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/dev/monolog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/dev/nelmio_alice.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/dev/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/dev/security_checker.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/dev/swiftmailer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/dev/web_profiler.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/doctrine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/doctrine_migrations.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/fos_rest.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/jms_serializer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/liip_imagine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/prod/doctrine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/prod/jms_serializer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/prod/monolog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/security.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/sonata_core.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/staging/monolog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/staging/swiftmailer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/stof_doctrine_extensions.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/swiftmailer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/test/fidry_alice_data_fixtures.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/test/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/test/monolog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/test/nelmio_alice.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/test/security_checker.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/test/swiftmailer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/test/sylius_theme.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/test/sylius_uploader.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/test/web_profiler.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/test_cached/doctrine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/test_cached/fidry_alice_data_fixtures.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/test_cached/fos_rest.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/test_cached/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/test_cached/monolog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/test_cached/security_checker.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/test_cached/swiftmailer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/test_cached/sylius_channel.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/test_cached/sylius_theme.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/test_cached/sylius_uploader.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/test_cached/twig.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/translation.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/twig.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/twig_extensions.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/packages/validator.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/routes.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/routes/dev/twig.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/routes/dev/web_profiler.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/routes/liip_imagine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/routes/sylius_admin.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/routes/sylius_admin_api.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/routes/sylius_shop.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/routes/test/sylius_test_plugin.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/routes/test_cached/sylius_test_plugin.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/services.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/services_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/config/services_test_cached.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/docker-compose.prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/docker/nginx/conf.d/default.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/docker/nodejs/docker-entrypoint.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/docker/php/docker-entrypoint.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/docker/php/php-cli.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/docker/php/php.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/easy-coding-standard.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/etc/build/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/features/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/gulpfile.babel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/phpspec.yaml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/phpstan.neon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Controller/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Addressing/Address.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Addressing/Country.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Addressing/Province.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Addressing/Zone.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Addressing/ZoneMember.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/AdminApi/AccessToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/AdminApi/AuthCode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/AdminApi/Client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/AdminApi/RefreshToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Channel/Channel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Channel/ChannelPricing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Currency/Currency.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Currency/ExchangeRate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Customer/Customer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Customer/CustomerGroup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Locale/Locale.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Order/Adjustment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Order/Order.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Order/OrderItem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Order/OrderItemUnit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Order/OrderSequence.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Payment/GatewayConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Payment/Payment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Payment/PaymentMethod.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Payment/PaymentMethodTranslation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Payment/PaymentSecurityToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Product/Product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Product/ProductAssociation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Product/ProductAssociationType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Product/ProductAssociationTypeTranslation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Product/ProductAttribute.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Product/ProductAttributeTranslation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Product/ProductAttributeValue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Product/ProductImage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Product/ProductOption.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Product/ProductOptionTranslation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Product/ProductOptionValue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Product/ProductOptionValueTranslation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Product/ProductReview.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Product/ProductTaxon.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Product/ProductTranslation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Product/ProductVariant.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Product/ProductVariantTranslation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Promotion/Promotion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Promotion/PromotionAction.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Promotion/PromotionCoupon.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Promotion/PromotionRule.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Shipping/Shipment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Shipping/ShippingCategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Shipping/ShippingMethod.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Shipping/ShippingMethodTranslation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Taxation/TaxCategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Taxation/TaxRate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Taxonomy/Taxon.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Taxonomy/TaxonImage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Taxonomy/TaxonTranslation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/Testimony.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/TestimonyTranslation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/User/AdminUser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/User/ShopUser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Entity/User/UserOAuth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Migrations/Version20170912085504.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Migrations/Version20170913125128.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Migrations/Version20171003103916.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Migrations/Version20180102140039.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Migrations/Version20190109095211.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Migrations/Version20190109160409.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Migrations/Version20190508083953.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/src/Migrations/Version20190621035710.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/symfony.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/templates/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/templates/Shop/Testimony/_carouselList.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/templates/bundles/SyliusShopBundle/Homepage/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/templates/bundles/TwigBundle/Exception/error.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/templates/bundles/TwigBundle/Exception/error404.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/templates/bundles/TwigBundle/Exception/error500.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/tests/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/themes/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/translations/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sylius-learning/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/posts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="851">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/posts/[id].js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-358">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/api/hello.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/date.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fallback</find>
+      <find>fall</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lib/posts.js" />
+        <option value="$PROJECT_DIR$/components/date.js" />
+        <option value="$PROJECT_DIR$/pages/posts/[id].js" />
+        <option value="$PROJECT_DIR$/pages/index.js" />
+        <option value="$PROJECT_DIR$/pages/api/hello.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="292" />
+    <option name="y" value="-4" />
+    <option name="width" value="1398" />
+    <option name="height" value="1020" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="nextjs-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nextjs-blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nextjs-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nextjs-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nextjs-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nextjs-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nextjs-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nextjs-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nextjs-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nextjs-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nextjs-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nextjs-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nextjs-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nextjs-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
+      <recent name="$PROJECT_DIR$/components" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bfdc919-45b8-4843-ac88-c8504b9416d8" name="Default Changelist" comment="" />
+      <created>1651070723441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651070723441</updated>
+      <workItem from="1651070724983" duration="4385000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4385000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980047" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/posts/pre-rendering.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/date.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/utils.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/posts/[id].js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-358">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/api/hello.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
